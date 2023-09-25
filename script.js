@@ -51,7 +51,7 @@ function check() {
 
   for (pos of positions) {
     if (pos.every((item) => items.includes(item))) {
-      alert("O JOGADOR '" + playerLastMove + "' GANHOU!Parabéns!!");
+      alert("O JOGADOR '" + playerLastMove + "' GANHOU!PARABÉNS!!");
       init();
       return;
     }
